@@ -13,9 +13,9 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 if (randomImageSource > randomImageSource2) {
-    document.querySelector("h1").innerHTML = "Player 1 is the Winner!"
+    document.querySelector("h1").innerHTML = "🚩Player 1 wins"
 } else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML = "Player 2 is the Winner!"
+    document.querySelector("h1").innerHTML = "Player 2 wins🚩"
 } else {
-    document.querySelector("h1").innerHTML = "You have tied!"
+    document.querySelector("h1").innerHTML = "DRAW‼️"
 }
